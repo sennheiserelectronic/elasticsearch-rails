@@ -16,6 +16,10 @@ branches:
 
 matrix:
   include:
+    - rvm: 2.3
+      jdk: oraclejdk8
+      env: RAILS_VERSIONS=4.1
+
     - rvm: 2.4
       jdk: oraclejdk8
       env: RAILS_VERSIONS=5.0
